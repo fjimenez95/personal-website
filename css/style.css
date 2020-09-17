@@ -1,0 +1,29 @@
+/* This standard CSS will automatically make your footer stick to website */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh; /* You want to get in practice of utilizing this */
+    display: flex;
+    flex-direction: column; /* Allows items to flex horizontally instead of vertically */
+}
+.outline {
+    border: 3px dotted red;
+}
+
+header {
+    height: 200px;
+}
+
+main {
+    flex-grow: 1; /* Property you can assign to flex items - which are any items in flex container - main element is going to expand and take as much space as possible */
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
