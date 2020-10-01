@@ -26,13 +26,40 @@
         <a href="#" class="brand-logo">Freddy Jimenez</a>
     </nav> 
     <header> <!-- Specific for header -->
-        <ul>
-            <li4></li4>
-        </ul>
-
+        <img src="./imgs/freddy-jimenez-profile.jpg" alt="Freddy Jimenez" class="responsive-image circle">
+        <h3 class="white-text">Hi there, I'm Freddy!</h3>
 
     </header> 
-    <main>
+    <main class ='container'>
+        <div class="row">
+            <section class="col s6">
+                <div class="container">
+                    <h4>About Me</h4>
+                    <p class="body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod enim vel, consequuntur harum quas voluptatibus quidem numquam impedit aliquid quae ipsa. Aut blanditiis eligendi a, quo est tempore beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod enim vel, consequuntur harum quas voluptatibus quidem numquam impedit aliquid quae ipsa. Aut blanditiis eligendi a, quo est tempore beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod enim vel, consequuntur harum quas voluptatibus quidem numquam impedit aliquid quae ipsa. Aut blanditiis eligendi a, quo est tempore beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod enim vel, consequuntur harum quas voluptatibus quidem numquam impedit aliquid quae ipsa. Aut blanditiis eligendi a, quo est tempore beatae.</p>
+                </div>
+            </section>
+            <section class="col s6">
+                <div class="container">
+                    <h4>Keep In Touch</h4>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="input-field">
+                            <input type="text" name="name" id="name">
+                            <label for="name">Name:</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" name="email" id="email">
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="input-field">
+                            <textarea class="materialize-textarea" name="message" id="message"></textarea>
+                            <label for="message">Your Message:</label>
+                        </div>
+                        <button type="submit" class="btn btn-small purple">Send Message</button>
+                    </form>
+                </div>
+            </section>
+
+        </div>
 
     </main>
     <footer class="page-footer purple lighten-2">
